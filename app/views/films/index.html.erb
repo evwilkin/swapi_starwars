@@ -1,0 +1,5 @@
+<h1>Films</h1>
+<% @films.each do |f| %>
+  <h2><%= f['title'] %></h2>
+  <h4>Episode <%= f['episode_id'] %></h4>
+<% end %>
